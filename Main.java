@@ -1,7 +1,7 @@
 // Soheil Farangizade
 
 import java.util.Random;
-import java.util.scanner;
+
 
 public class Main {
     public static int dayCounter=1;
@@ -28,7 +28,7 @@ static class God {
         players = new String[]{"ali", "akbar", "nader", "qasem", "reza" ,
                 "arash", "ahmad", "mehdi", "amir", "ehsan"};
     }
-
+// the game will start from here
     void start() {
 
         for (int i = 0; i < 3; i++) {
@@ -81,7 +81,7 @@ static class God {
             winningCheck();
         }
     }
-
+ // this method will show us who is winner
     void winningCheck(){
 
         int policeAlives =0;
@@ -107,7 +107,7 @@ static class God {
             System.exit(0);
         }
     }
-
+ // this method tell us the day satart with who
     void day() {
         int selectedPerson = 0;
         int[] election = new int[10];
@@ -139,7 +139,7 @@ static class God {
 
 
     }
-
+ // what will happend in the night
     void night(){
         int selectedPerson = 0;
 
