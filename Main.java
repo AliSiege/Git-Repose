@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.util.scanner;
 
 public class Main {
     public static int dayCounter=1;
